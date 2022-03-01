@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'pet',component:MascotasComponent},
   {path:'login',component:LoginComponent},
-  {path:'**',component:SliderComponent}
+  {path:'404',component:SliderComponent}
 ];
 
 @NgModule({

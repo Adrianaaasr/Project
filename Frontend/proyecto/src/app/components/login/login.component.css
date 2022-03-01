@@ -52,7 +52,7 @@ body {
 
 }
 .actions button {
-  background-color: #1aebb6;
+  background-color:  #FFC107;
   border: none;
   border-radius: 20px;
   padding: 5px 25px;
@@ -63,6 +63,6 @@ body {
 }
 .Sign_up_link {
   font-weight: 500;
-  color: #14b397;
+  color: #FFC107;
   text-decoration: none;
 }

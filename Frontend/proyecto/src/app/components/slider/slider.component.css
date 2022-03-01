@@ -4,7 +4,6 @@ html, body{
 }
 
 body {
-	background: #2f4256 url('http://freelansim.ru/images/service_pattern.png')repeat 0 0;
 	text-align: center;
 	font-family: 'PT Sans', Verdana, sans-serif;
 	margin: 0;
@@ -67,7 +66,7 @@ body {
 
 .text{
 	font-size: 36px;
-	color: #fff;
+	color: #FFC107;
 	font-weight: normal;
 	margin: 0 auto;
   line-height: 1;
@@ -75,7 +74,7 @@ body {
 
 .title{
   font-size: 120px;
-  color: #fff;
+  color: #FFC107;
   font-weight: 700;
   margin: 0 auto 20px;
   line-height: 1;
