@@ -9,7 +9,12 @@ import { MascotasModule } from '../models/mascotas/mascotas.module';
 export class MascotasService {
   url='http://localhost:4000/api/pets/mascota'
   constructor(private http: HttpClient) { }
+
   getmascotas ():Observable <any> {
     return this.http.get(this.url);
   }
+  getmascota(id: string): Observable<any>{
+    return this.http.get(`${this.url}/${id}`);
+}
+
 }
